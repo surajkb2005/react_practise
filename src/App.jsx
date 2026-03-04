@@ -1,13 +1,20 @@
 import React from 'react';
+import Card from './components/Card';
 
 function App() {
   return (
     <div>
       <h1>Hello World</h1>
-      <div className="circle_card">
-        <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="Cat" ></img>
-      </div>
-
+      <p>Cat 1</p>
+      <Card />
+      <p>Cat 2</p>
+      <Card />
+      <p>Cat 3</p>
+      <Card />
+      <p>Cat 4</p>
+      <Card />
+      <p>Cat 5</p>
+      <Card />
     </div>
   );
 }
