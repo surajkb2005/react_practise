@@ -14,6 +14,10 @@ const catsList = [
     {
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbKW0m5S1KF1NErcE_qE7Qj-xcG2CgNd5Jw&s",
         alt: "Cat 4"
+    },
+    {
+        image: "https://hips.hearstapps.com/hmg-prod/images/white-cat-breeds-kitten-in-grass-67bf648a54a3b.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=1200:*",
+        alt: "Cat 5"
     }
 ];
 
