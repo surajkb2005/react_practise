@@ -3,14 +3,20 @@ import Card from './components/Card';
 import DetailedCard from './components/DetailsCard';
 import catsList from './data.js';
 
+function createCards(cats) {
+  return (
+    <Card
+      image={cats.image}
+      alt={cats.alt}
+    />
+  )
+}
+
 function App() {
   return (
     <div>
       <h1>Hello World</h1>
-      <Card
-        image={catsList[0].image}
-        alt={catsList[0].alt}
-      />
+      {catsList.map(createCards)}
       <p>Cat</p>
       <DetailedCard />
     </div>
