@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Card() {
+function Card(cats) {
     return (
         <span className="circle_card">
-            <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="Cat" ></img>
+            <img src={cats.image} alt={cats.alt} ></img>
         </span>
     );
 }
